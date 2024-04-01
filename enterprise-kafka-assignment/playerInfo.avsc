@@ -1,0 +1,36 @@
+{
+    "type": "record",
+    "name": "playerInfo",
+    "namespace": "torontoRaptors",
+    "fields": [
+        {
+            "name": "playerID",
+            "type": "int"
+        },
+        {
+            "name": "firstName",
+            "type": "string",
+            "default": "John"
+        },
+        {
+            "name": "lastName",
+            "type": "string",
+            "default": "Doe"
+        },
+        {
+            "name": "age",
+            "type": "int",
+            "default": 18
+        },
+        {
+            "name": "country",
+            "type": "string",
+            "default": "Canada"
+        },
+        {
+            "name": "college",
+            "type": "string",
+            "default": "McGill University"
+        }
+    ]
+}
